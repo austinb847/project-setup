@@ -1,0 +1,84 @@
+img {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+body {
+  /* background: radial-gradient(circle at bottom, navy 0, black 100%); */
+  background-image: url("assets/images/star.gif");
+  
+  
+}
+
+.title_text {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  color: #FFF;
+  text-align: center;
+  font-family: 'lato',sans-serif;
+  font-weight: 300px;
+  font-size: 65px;
+  letter-spacing: 10px;
+  background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  transition: font-size 1s;
+}
+
+.title_text:hover {
+  font-size: 68px;
+  cursor: pointer;
+}
+
+#ageCalculator {
+  display: none;
+  width: 600px;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  border: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  background-color: rgba(204, 204, 204, 0.699);
+  padding: 50px;
+
+}
+
+#planetResults {
+  display: none;
+  width: 800px;
+  margin: auto;
+  border: .5px;
+  border-style: solid;
+  border-radius: 6px;
+  background-color: rgba(5, 5, 5, 0.493);
+  padding: 50px;
+
+}
+
+button {
+  margin-top: 20px;
+}
+
+p {
+  color: #FFF;
+  font-family: 'lato',sans-serif;
+}
+
+h3 {
+  background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+

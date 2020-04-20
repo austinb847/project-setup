@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Galactic Calculator</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title_text">Galactic Calculator</h1>
+      </div>
+      
+      
+      <form id="ageCalculator">
+        <div class="form-row">
+          <div class="col">
+            <input id="userAge" type="text" class="form-control" placeholder="Age">
+          </div>
+        
+          <div class="col">
+            <input id="userExpectancy" type="text" class="form-control" placeholder="Average Life Expectancy">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Calculate</button>
+      </form>
+
+      <div id="planetResults" >
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>Mercury</h3>
+            <img src="assets/images/mercury.png">
+            <div class="output">
+              <p>Age(years): <span id="mercAge"></span></p>
+              <p>Life Expectancy: <span id="mercExpec"></span></p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h3>Venus</h3>
+            <img src="assets/images/venus.png">
+            <div class="output">
+              <p>Age(years): <span id="venuAge"></span></p>
+              <p>Life Expectancy: <span id="venuExpec"></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>Mars</h3>
+            <img src="assets/images/mars.jpg">
+            <div class="output">
+              <p>Age(years): <span id="marsAge"></span></p>
+              <p>Life Expectancy: <span id="marsExpec"></span></p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h3>Jupiter</h3>
+            <img src="assets/images/jupiter.png">
+            <div class="output">
+              <p>Age(years): <span id="jupiAge"></span></p>
+              <p>Life Expectancy: <span id="jupiExpec"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
